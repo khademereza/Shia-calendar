@@ -37,8 +37,8 @@ import com.byagowi.persiancalendar.entities.PrayTime.Companion.get
 import com.byagowi.persiancalendar.global.coordinates
 import com.byagowi.persiancalendar.global.notificationAthan
 import com.byagowi.persiancalendar.service.AlarmWorker
-import com.byagowi.persiancalendar.service.AthanNotification
 import com.byagowi.persiancalendar.service.BroadcastReceivers
+import com.byagowi.persiancalendar.service.startAthanNotification
 import com.byagowi.persiancalendar.ui.athan.AthanActivity
 import java.util.GregorianCalendar
 import java.util.concurrent.TimeUnit
@@ -95,10 +95,7 @@ private fun startAthanBody(context: Context, prayTime: PrayTime) {
         if (notificationAthan || ActivityCompat.checkSelfPermission(
                 context, Manifest.permission.POST_NOTIFICATIONS,
             ) == PackageManager.PERMISSION_GRANTED
-        ) context.startService(
-            Intent(context, AthanNotification::class.java)
-                .putExtra(KEY_EXTRA_PRAYER, prayTime.name),
-        ) else startAthanActivity(context, prayTime)
+        ) startAthanNotification(context, prayTime) else startAthanActivity(context, prayTime)
     }.onFailure(logException)
 }
 

@@ -448,11 +448,6 @@
         </receiver>
 
         <service
-            android:name=".service.AthanNotification"
-            android:exported="false"
-            android:label="Athan Service" />
-
-        <service
             android:name=".service.PersianCalendarTileService"
             android:exported="true"
             android:icon="@drawable/day19"

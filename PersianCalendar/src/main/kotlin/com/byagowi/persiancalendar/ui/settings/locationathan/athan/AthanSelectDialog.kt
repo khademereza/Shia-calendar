@@ -33,7 +33,7 @@ import com.byagowi.persiancalendar.PREF_ATHAN_NAME
 import com.byagowi.persiancalendar.PREF_ATHAN_URI
 import com.byagowi.persiancalendar.R
 import com.byagowi.persiancalendar.global.language
-import com.byagowi.persiancalendar.service.AthanNotification
+import com.byagowi.persiancalendar.service.invalidateAthanChannel
 import com.byagowi.persiancalendar.ui.common.AppDialog
 import com.byagowi.persiancalendar.ui.utils.SettingsHorizontalPaddingItem
 import com.byagowi.persiancalendar.ui.utils.SettingsItemHeight
@@ -55,7 +55,7 @@ fun AthanSelectDialog(
     fun commonDialogCallback(uri: Uri?, action: (Uri) -> (Pair<String, Uri>?)) {
         onDismissRequest()
         uri ?: return
-        AthanNotification.invalidateChannel(context)
+        invalidateAthanChannel(context)
         val (title, uri) = runCatching { action(uri) }.onFailure(logException).getOrNull()
             .debugAssertNotNull ?: return
         context.preferences.edit {
@@ -108,7 +108,7 @@ fun AthanSelectDialog(
                 R.string.entezar to R.raw.entezar,
             ).map { (stringId, rawId) ->
                 stringId to {
-                    AthanNotification.invalidateChannel(context)
+                    invalidateAthanChannel(context)
                     context.preferences.edit {
                         putString(PREF_ATHAN_URI, resources.getRawUri(rawId))
                         putString(PREF_ATHAN_NAME, resources.getString(stringId))

@@ -56,7 +56,7 @@ import com.byagowi.persiancalendar.global.language
 import com.byagowi.persiancalendar.global.notificationAthan
 import com.byagowi.persiancalendar.global.spacedComma
 import com.byagowi.persiancalendar.global.updateStoredPreference
-import com.byagowi.persiancalendar.service.AthanNotification
+import com.byagowi.persiancalendar.service.invalidateAthanChannel
 import com.byagowi.persiancalendar.ui.common.AppDialog
 import com.byagowi.persiancalendar.ui.preferencesUpdateToken
 import com.byagowi.persiancalendar.ui.settings.SettingsClickable
@@ -202,7 +202,7 @@ fun AthanSettings(
                 title = stringResource(R.string.notification_athan),
                 summary = stringResource(R.string.enable_notification_athan),
                 onBeforeToggle = { value ->
-                    AthanNotification.invalidateChannel(context)
+                    invalidateAthanChannel(context)
                     if (value && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU && ActivityCompat.checkSelfPermission(
                             context, Manifest.permission.POST_NOTIFICATIONS,
                         ) != PackageManager.PERMISSION_GRANTED
@@ -237,7 +237,7 @@ fun AthanSettings(
                 title = stringResource(R.string.vibration),
                 summary = language.tryTranslateAthanVibrationSummary(),
                 onBeforeToggle = {
-                    AthanNotification.invalidateChannel(context)
+                    invalidateAthanChannel(context)
                     it
                 },
             )

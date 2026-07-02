@@ -1,7 +1,6 @@
 package com.byagowi.persiancalendar.ui.athan
 
 import android.app.KeyguardManager
-import android.content.Intent
 import android.graphics.Color
 import android.media.AudioAttributes
 import android.media.AudioManager
@@ -24,7 +23,6 @@ import com.byagowi.persiancalendar.DEFAULT_ATHAN_VOLUME
 import com.byagowi.persiancalendar.KEY_EXTRA_PRAYER
 import com.byagowi.persiancalendar.entities.PrayTime
 import com.byagowi.persiancalendar.global.ascendingAthan
-import com.byagowi.persiancalendar.service.AthanNotification
 import com.byagowi.persiancalendar.ui.theme.SystemTheme
 import com.byagowi.persiancalendar.ui.utils.isSystemInDarkTheme
 import com.byagowi.persiancalendar.utils.applyAppLanguage
@@ -82,14 +80,6 @@ class AthanActivity : ComponentActivity() {
         )
         applyAppLanguage(this)
         super.onCreate(savedInstanceState)
-
-        if (intent?.action == CANCEL_ATHAN_NOTIFICATION) {
-            runCatching {
-                stopService(Intent(this, AthanNotification::class.java))
-            }.onFailure(logException)
-            finish()
-            return
-        }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             window.attributes.layoutInDisplayCutoutMode =
@@ -172,9 +162,5 @@ class AthanActivity : ComponentActivity() {
         if (ascendingAthan) handler.removeCallbacks(ascendVolume)
 
         finish()
-    }
-
-    companion object {
-        const val CANCEL_ATHAN_NOTIFICATION = "CANCEL_ATHAN_NOTIFICATION"
     }
 }
