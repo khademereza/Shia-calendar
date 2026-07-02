@@ -208,6 +208,7 @@ import com.byagowi.persiancalendar.ui.common.AppDropdownMenuRadioItem
 import com.byagowi.persiancalendar.ui.common.AppFloatingActionButton
 import com.byagowi.persiancalendar.ui.common.AppIconButton
 import com.byagowi.persiancalendar.ui.common.AppModesDropDown
+import com.byagowi.persiancalendar.ui.common.AskForCalendarPermissionDialog
 import com.byagowi.persiancalendar.ui.common.CalendarsOverview
 import com.byagowi.persiancalendar.ui.common.DatePickerDialog
 import com.byagowi.persiancalendar.ui.common.NavigationMenuArrow
@@ -346,37 +347,73 @@ fun SharedTransitionScope.CalendarScreen(
             )
         }).takeIf { enabledCalendars.size > 1 },
         (DetailsTab.Events to @Composable { appointments: List<CalendarEvent<*>> ->
-            AnimatedContent(
-                targetState = appointments.isEmpty(),
-                transitionSpec = {
-                    (fadeIn() + expandVertically()).togetherWith(fadeOut() + shrinkVertically())
-                },
-            ) { appointmentsIsEmpty ->
-                if (appointmentsIsEmpty) Box {
-                    Text(
-                        text = stringResource(R.string.no_event),
-                        textAlign = TextAlign.Center,
-                        modifier = Modifier
-                            .padding(vertical = 8.dp, horizontal = 24.dp)
-                            .fillMaxWidth(),
-                    )
+            Column {
+                AnimatedContent(
+                    targetState = appointments.isEmpty(),
+                    transitionSpec = {
+                        (fadeIn() + expandVertically()).togetherWith(fadeOut() + shrinkVertically())
+                    },
+                ) { appointmentsIsEmpty ->
+                    if (appointmentsIsEmpty) Box {
+                        Text(
+                            text = stringResource(R.string.no_event),
+                            textAlign = TextAlign.Center,
+                            modifier = Modifier
+                                .padding(vertical = 8.dp, horizontal = 24.dp)
+                                .fillMaxWidth(),
+                        )
 //                            TabEditButton(
 //                                action = { navigateToHolidaysSettings(null) },
 //                                title = stringResource(R.string.settings),
 //                                visible = remember { PREF_HOLIDAY_TYPES !in context.preferences },
 //                            )
-                } else DayEvents(
-                    events = appointments,
-                    navigateToHolidaysSettings = navigateToHolidaysSettings,
-                    viewEvent = viewEvent,
-                    compact = isShowDeviceCalendarEvents && !isTablet,
-                    modifier = Modifier.padding(
-                        top = 6.dp,
-                        bottom = 8.dp,
-                        start = 24.dp,
-                        end = 24.dp,
-                    ),
-                )
+                    } else DayEvents(
+                        events = appointments,
+                        navigateToHolidaysSettings = navigateToHolidaysSettings,
+                        viewEvent = viewEvent,
+                        compact = isShowDeviceCalendarEvents && !isTablet,
+                        modifier = Modifier.padding(
+                            top = 6.dp,
+                            bottom = 8.dp,
+                            start = 24.dp,
+                            end = 24.dp,
+                        ),
+                    )
+                }
+
+//        if (PREF_HOLIDAY_TYPES !in context.preferences && language.isIranExclusive) {
+//            Spacer(Modifier.height(16.dp))
+//            EncourageActionLayout(
+//                header = stringResource(R.string.warn_if_events_not_set),
+//                discardAction = {
+//                    context.preferences.edit {
+//                        putStringSet(PREF_HOLIDAY_TYPES, EventsRepository.iranDefault)
+//                    }
+//                },
+//                acceptAction = { navigateToHolidaysSettings(null) },
+//            )
+//        } else
+                if (!isShowDeviceCalendarEvents) {
+                    val context = LocalContext.current
+                    if (PREF_SHOW_DEVICE_CALENDAR_EVENTS !in context.preferences) {
+                        var showDialog by remember { mutableStateOf(false) }
+                        if (showDialog) AskForCalendarPermissionDialog { showDialog = false }
+
+                        EncourageActionLayout(
+                            header = stringResource(R.string.ask_calendar_permission),
+                            discardAction = {
+                                context.preferences.edit {
+                                    putBoolean(
+                                        PREF_SHOW_DEVICE_CALENDAR_EVENTS,
+                                        false,
+                                    )
+                                }
+                            },
+                            acceptButton = stringResource(R.string.yes),
+                            acceptAction = { showDialog = true },
+                        )
+                    }
+                }
             }
 //                        if (when {
 //                                eventsRepository.iranOthers -> true
