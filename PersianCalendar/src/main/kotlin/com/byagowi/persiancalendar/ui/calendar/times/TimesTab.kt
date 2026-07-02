@@ -37,7 +37,6 @@ import androidx.compose.ui.unit.sp
 import androidx.core.content.edit
 import androidx.navigation3.ui.LocalNavAnimatedContentScope
 import com.byagowi.persiancalendar.EXPANDED_TIME_STATE_KEY
-import com.byagowi.persiancalendar.PREF_ATHAN_ALARM
 import com.byagowi.persiancalendar.R
 import com.byagowi.persiancalendar.SHARED_CONTENT_KEY_MOON
 import com.byagowi.persiancalendar.entities.Jdn
@@ -155,13 +154,13 @@ fun SharedTransitionScope.TimesTab(
     }
 }
 
-//@Composable
-//private fun showEnableAthanForPersianUsers(): Boolean {
-//    // As the message is only translated in Persian
-//    if (!language.isPersianOrDari) return false
-//    val context = LocalContext.current
-//    return PREF_ATHAN_ALARM !in context.preferences
-//}
+// @Composable
+// private fun showEnableAthanForPersianUsers(): Boolean {
+//     // As the message is only translated in Persian
+//     if (!language.isPersianOrDari) return false
+//     val context = LocalContext.current
+//     return PREF_ATHAN_ALARM !in context.preferences
+// }
 
 @Composable
 private fun SharedTransitionScope.AstronomicalOverview(
