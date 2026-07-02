@@ -42,8 +42,6 @@
     <string name="athan">اذان</string>
     <string name="athan_alarm_summary">بو نامازلارا اذان دئیل‌سین</string>
     <string name="athan_alarm">اذان‌لار</string>
-    <string name="athan_volume_summary">اذان سسی تنظیم‌لری</string>
-    <string name="athan_volume">سس</string>
     <string name="athan_disabled_summary">اذان تنظیم اولماق اۆچون مکان داخیل ادین</string>
     <string name="athan_gap">واقعی اذان‌لا برنامه اذان‌ین مصافه‌سی</string>
     <string name="athan_gap_summary">اذان‌دان نچه دقیقه قاباق، اعلان سس‌لن‌سین</string>
@@ -96,8 +94,6 @@
     <string name="customize_widget">اعلان‌لاری و ویجتی شخصی ائتمک</string>
     <string name="add">آرتیر</string>
     <string name="which_one_to_show">هانگی گؤستریل‌سین</string>
-    <string name="notification_athan">اذانی اعلان ائله</string>
-    <string name="enable_notification_athan">اذانی اعلان ائتمک و وسیله‌نین تیترئتمکی</string>
     <string name="custom_notification_is_set">ایستدیگ‌ین سس تنظیم اولدو</string>
     <string name="custom_athan">اذان سئچ‌یمی</string>
     <string name="default_athan">ایلک اذان</string>
@@ -211,8 +207,6 @@
     <string name="prefer_linear_date">ترجیهن تاریخ‌ین عددی گؤسترمکی</string>
     <string name="month_events">آی‌ین خصوصی گۆن‌لری</string>
     <string name="map">نقشه</string>
-    <string name="ascending_athan_volume">اذان سسی چوخالما</string>
-    <string name="enable_ascending_athan_volume">اذان سسی بیر دقیقه بویوندا ان‌چوخ اولسون</string>
     <string name="widget_background_color">ویجت‌ین آرخا رنگی</string>
     <string name="select_widgets_background_color">ویجی آرخاسینا ایستدینیز رنگی سئچین</string>
     <string name="share">پایلاش</string>

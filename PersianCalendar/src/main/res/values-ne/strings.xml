@@ -90,10 +90,8 @@
 \nएपलाई यो एक पटक मात्र चाहिन्छ, यद्यपि, यदि तपाइँ नयाँ स्थानमा जानुभयो भने, GPS र इन्टरनेटमा पहुँच गर्न फेरि आवश्यक छ।</string>
     <string name="wait_for_gps">कृपया प्रतीक्षा गर्नुहोस्… यदि एक मिनेट पछि केहि पनि देखा परेन भने तपाईले अन्य विकल्पहरू प्रयास गर्नुपर्छ</string>
     <string name="athan_gap_summary">Athan भन्दा कति समय अगाडि अलार्म ट्रिगर गर्नुपर्छ (मिनेटमा)</string>
-    <string name="enable_notification_athan">एक सूचना र उपकरण कम्पन रूपमा Athan देखाउनुहोस्</string>
     <string name="athan_alarm">एथन अलार्म</string>
     <string name="custom_athan">Athan चयन गर्नुहोस्</string>
-    <string name="athan_volume_summary">अलार्मको लागि भोल्युम सेट गर्नुहोस्</string>
     <string name="about_license_title">आवेदन लाइसेन्स</string>
     <string name="phone_location_required">एपको यो भागलाई स्थान अनुमति चाहिन्छ, यदि तपाईंले अस्वीकार गर्न चाहनुहुन्छ भने तपाईंले आफ्नो अक्षांश र देशान्तर म्यानुअल रूपमा प्रविष्ट गर्नुपर्नेछ।</string>
     <string name="licenses">इजाजतपत्र</string>
@@ -158,12 +156,8 @@
     <string name="pray_methods_calculation">प्रार्थना समय र Qibla कम्पास लागि गणना विधिहरू</string>
     <string name="athan_gap">एथन ग्याप</string>
     <string name="athan_alarm_summary">का लागि अलार्म ट्रिगर गर्न प्रार्थना</string>
-    <string name="notification_athan">Athan सूचना</string>
-    <string name="ascending_athan_volume">बढ्दो एथान भोल्युम</string>
-    <string name="enable_ascending_athan_volume">एथन भोल्युम एक मिनेटमा अधिकतम मानमा पुग्छ</string>
     <string name="abdulbasit">अब्दुल बासित अब्दुल समद</string>
     <string name="default_athan">पूर्वनिर्धारित Athan</string>
-    <string name="athan_volume">एथन भोल्युम</string>
     <string name="athan_disabled_summary">Athan अलार्म सेट गर्न, स्थान छान्नुहोस् वा माथिको निर्देशांकहरू प्रविष्ट गर्नुहोस्</string>
     <string name="location_access">स्थान पहुँच</string>
     <string name="calendar_access">क्यालेन्डर पहुँच</string>

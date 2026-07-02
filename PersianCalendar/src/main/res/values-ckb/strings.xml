@@ -42,8 +42,6 @@
     <string name="athan">بانگ</string>
     <string name="athan_alarm_summary">بۆ ئەم نوێژانە بانگ بدرێ</string>
     <string name="athan_alarm">بانگەکان</string>
-    <string name="athan_volume_summary">ڕێکخستنی قەبارەی دەنگی بانگ</string>
-    <string name="athan_volume">قەبارەی دەنگ</string>
     <string name="athan_disabled_summary">بۆ چالاککردنی ڕێکخستنی بانگ، شوێنێک لە پێڕستدا ھەڵ‌ببژێرن یا پۆتانەکەتان لە سەرەوە تۆمار بکەن</string>
     <string name="athan_gap">مەودای بانگ</string>
     <string name="athan_gap_summary">چەند خولەک بەر لە بانگی مزگەوت، بەرنامە بانگ بدا</string>
@@ -96,8 +94,6 @@
     <string name="customize_widget">تایبەتیکردنی ویجیتەکان و ئاگاداری</string>
     <string name="add">زیادکردن</string>
     <string name="which_one_to_show">کامەیان نیشان بدرێ</string>
-    <string name="notification_athan">ئاگاداریی بانگ</string>
-    <string name="enable_notification_athan">ڕاگەیاندنی بانگ بە ئاگاداری و لەرینەوەی ئامراز</string>
     <string name="custom_notification_is_set">دەنگی داواکراو رێکخرا</string>
     <string name="custom_athan">ھەڵبژاردنی بانگ</string>
     <string name="default_athan">بانگی بنەڕەتی</string>
@@ -213,8 +209,6 @@
     <string name="prefer_linear_date">نیشاندانی ڕێککەوت بە ژمارە</string>
     <string name="month_events">بۆنەکانی مانگ</string>
     <string name="map">نەخشە</string>
-    <string name="ascending_athan_volume">بەرزبوونەوەی دەنگی بانگ</string>
-    <string name="enable_ascending_athan_volume">دەنگی بانگ دوای دەقەیەک دەگاتە زۆرینەی خۆی</string>
     <string name="widget_background_color">ڕەنگی باکگراوندی ویجیت</string>
     <string name="select_widgets_background_color">ھەڵبژاردنی ڕەنگی دڵخواز بۆ باکگراوندی ویجیت</string>
     <string name="share">ھاوبەشی</string>

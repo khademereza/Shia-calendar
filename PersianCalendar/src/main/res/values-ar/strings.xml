@@ -162,14 +162,10 @@
     <string name="athan_gap_summary">تقديم الأذان (بالدقائق)</string>
     <string name="athan_alarm">تنبيهات الأذان</string>
     <string name="athan_alarm_summary">تفعيل تنبيه الأذان لهذه الصلوات</string>
-    <string name="notification_athan">تنبيه الأذان</string>
-    <string name="enable_notification_athan">إظهار الأذان كتنبيه مع الإهتزاز</string>
     <string name="custom_athan">إختيار صوت المؤذن</string>
     <string name="abdulbasit">عبدالباسط عبدالصمد</string>
     <string name="custom_notification_is_set">تم تخصيص صوت المؤذن</string>
     <string name="default_athan">صوت المؤذن الإفتراضي</string>
-    <string name="athan_volume">التحكم بمستوى صوت الأذان</string>
-    <string name="athan_volume_summary">مستوى الصوت</string>
     <string name="athan_disabled_summary">لتفعيل منبه الأذان، حدد المكان أو أدخل الإحداثيات اللازمة</string>
     <!--Permissions-->
     <string name="location_access">الوصول للموقع</string>
@@ -213,8 +209,6 @@
     <string name="prefer_linear_date">إظهار التاريخ بالصيغة الرقمية</string>
     <string name="month_events">مناسبات الشهر</string>
     <string name="map">خريطة</string>
-    <string name="enable_ascending_athan_volume">يصل صوت أذان إلى ذروته خلال دقيقة</string>
-    <string name="ascending_athan_volume">زيادة صوت الأذان</string>
     <string name="share">مشاركة</string>
     <string name="enable_location_services">خدمات الموقع غير مفعلة، يرجى تشغيلها لاستخدام الميزة.</string>
     <string name="widget_age_name">التقويم الفارسي (عمر)</string>

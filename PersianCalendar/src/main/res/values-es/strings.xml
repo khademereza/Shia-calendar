@@ -161,16 +161,10 @@
     <string name="athan_gap_summary">Cuánto tiempo antes del azán debe activarse la alarma (en minutos)</string>
     <string name="athan_alarm">Alarma de azan</string>
     <string name="athan_alarm_summary">Activar la alarma azán para estas oraciones</string>
-    <string name="notification_athan">Notificación de azan</string>
-    <string name="enable_notification_athan">Mostrar azán como notificación y vibración del dispositivo</string>
-    <string name="ascending_athan_volume">Volumen de Azán ascendente</string>
-    <string name="enable_ascending_athan_volume">El volumen de azán alcanza al máximo en un minuto</string>
     <string name="custom_athan">Elegir azan</string>
     <string name="abdulbasit">Abdul-Basit Abdel-Samad</string>
     <string name="custom_notification_is_set">Acaba de configurarse la notificación personalizada</string>
     <string name="default_athan">Azán por defecto</string>
-    <string name="athan_volume">Volumen de azán</string>
-    <string name="athan_volume_summary">Configurar el volumen para alarma</string>
     <string name="athan_disabled_summary">Para configurar la alarma azán, elija una ubicación o confígurela</string>
     <!--Permissions-->
     <string name="location_access">Acceso a ubicación</string>

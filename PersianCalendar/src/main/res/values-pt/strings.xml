@@ -3,9 +3,7 @@
     <string name="code">pt</string>
     <string name="pref_widget">Widget</string>
     <string name="events_summary">Eventos a mostrar</string>
-    <string name="notification_athan">Notificação Athan</string>
     <string name="licenses">Licença</string>
-    <string name="athan_volume_summary">Definir volume de alarme</string>
     <string name="about_license_title">Licença da Aplicação</string>
     <string name="tuesday_short">T</string>
     <string name="november">Novembro</string>
@@ -73,7 +71,6 @@
     <string name="coordinates">Coordenadas</string>
     <string name="athan_alarm">Alarme Athan</string>
     <string name="custom_athan">Selecionar Athan</string>
-    <string name="athan_volume">Athan Volume</string>
     <string name="about_email_sum">Envie um email aos autores da app</string>
     <string name="remove">Remover</string>
     <string name="pm">PM</string>

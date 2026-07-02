@@ -152,16 +152,10 @@
     <string name="athan_gap_summary">Berapa lama sebelum azan alarm harus dipicu (dalam menit)</string>
     <string name="athan_alarm">Alarm Azan</string>
     <string name="athan_alarm_summary">Salat yang memicu alarm</string>
-    <string name="notification_athan">Notifikasi Azan</string>
-    <string name="enable_notification_athan">Tampilkan azan sebagai notifikasi dan getaran perangkat</string>
-    <string name="ascending_athan_volume">Volume azan meningkat bertahap</string>
-    <string name="enable_ascending_athan_volume">Volume azan mencapai nilai maksimum dalam satu menit</string>
     <string name="custom_athan">Pilih Azan</string>
     <string name="abdulbasit">Abdul-Basit Abdel-Samad</string>
     <string name="custom_notification_is_set">Notifikasi kustom baru saja diatur</string>
     <string name="default_athan">Azan Default</string>
-    <string name="athan_volume">Volume Azan</string>
-    <string name="athan_volume_summary">Atur volume alarm</string>
     <string name="athan_disabled_summary">Untuk mengatur alarm azan, pilih lokasi atau masukkan koordinat di atas</string>
     <string name="location_access">Akses Lokasi</string>
     <string name="phone_location_required">Bagian aplikasi ini memerlukan izin lokasi. Jika Anda memilih tolak, Anda harus memasukkan lintang dan bujur secara manual.</string>

@@ -212,16 +212,10 @@
     <string name="about_license_sum">Vérifier la licence GPLv3 et les autres conditions de licence utilisées pour Calendrier persan.</string>
     <string name="phone_calendar_required">Cette partie de l’application nécessite l’autorisation du calendrier. Si vous l’autorisez, vos évènements personnels seront affichés sur le calendrier.</string>
     <string name="phone_location_required">Cette partie de l’application nécessite une autorisation de localisation. Si vous choisissez de la refuser, vous devez saisir manuellement votre latitude et votre longitude.</string>
-    <string name="athan_volume_summary">Régler le volume de l’alarme</string>
-    <string name="athan_volume">Volume de l’athan</string>
     <string name="default_athan">Athan par défaut</string>
     <string name="custom_notification_is_set">La notification personnalisée vient d’être définie</string>
     <string name="abdulbasit">Abdul-Basit Abdel-Samad</string>
     <string name="custom_athan">Sélectionnez l’Athan</string>
-    <string name="enable_notification_athan">Afficher l’Athan comme notification et vibration l’appareil</string>
-    <string name="ascending_athan_volume">Volume croissant pour l’Athan</string>
-    <string name="enable_ascending_athan_volume">Le volume de l’Athan atteint sa valeur maximale en une minute</string>
-    <string name="notification_athan">Notification Athan</string>
     <string name="athan_alarm_summary">Prières pour lesquelles déclencher l’alarme</string>
     <string name="athan_alarm">Alarme Athan</string>
     <string name="athan_gap_summary">Combien de temps avant l’Athan doit-on déclencher l’alarme (en minutes)</string>

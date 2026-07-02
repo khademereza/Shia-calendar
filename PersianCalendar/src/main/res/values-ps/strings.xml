@@ -86,8 +86,6 @@
     <string name="customize_widget">شخصی‌سازی ویجت‌ها و اعلان</string>
     <string name="add">ډېاپه کړئ</string>
     <string name="which_one_to_show">کدام یک نمایش داده شود</string>
-    <string name="notification_athan">اذان به صورت اعلان</string>
-    <string name="enable_notification_athan">نمایش اذان به‌عنوان یک اعلان و لرزش دستگاه</string>
     <string name="custom_notification_is_set">صدای درخواستی تنظیم شد</string>
     <string name="custom_athan">انتخاب اذان</string>
     <string name="default_athan">اذان پیش‌فرض</string>
@@ -198,8 +196,6 @@
     <string name="prefer_linear_date">ترجیح نمایش عددی تاریخ</string>
     <string name="month_events">مناسبت‌های ماه</string>
     <string name="map">نقشہ</string>
-    <string name="enable_ascending_athan_volume">د اذان غږ په یوه دقیقه کې خپل عروج ته رسي</string>
-    <string name="ascending_athan_volume">د اذان غږ زیاتیدل</string>
     <string name="widget_background_color">رنگ پس‌زمینه ویجت</string>
     <string name="select_widgets_background_color">انتخاب رنگ دلخواه برای پس‌زمینه ویجت</string>
     <string name="share">هم‌رسانی</string>

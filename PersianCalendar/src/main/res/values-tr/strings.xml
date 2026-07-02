@@ -155,16 +155,10 @@
     <string name="phone_location_required">Uygulamanın bu kısmının, konumunuza erişmesi gerekmektedir. Reddet’i seçerseniz enlem ve boylam bilgilerini manuel girmeniz gerekir.</string>
     <string name="location_access">Konum Erişimi</string>
     <string name="athan_disabled_summary">Ezan alarmını kurmak için bir konum seç veya yukarıdaki koordinatları gir</string>
-    <string name="athan_volume_summary">Alarmın sesini ayarla</string>
-    <string name="athan_volume">Ezan Ses Seviyesi</string>
     <string name="default_athan">Varsayılan Ezan</string>
     <string name="custom_notification_is_set">Müezzin sesi ayarlandı</string>
     <string name="abdulbasit">Abdulbasıt Abdus Samed</string>
     <string name="custom_athan">Ezan seç</string>
-    <string name="enable_ascending_athan_volume">Ezan sesini bir dakikada maksimum düzeye ulaştır</string>
-    <string name="ascending_athan_volume">Ezan Sesini Artır</string>
-    <string name="enable_notification_athan">Ezanı bildirim ve cihaz titreşimi olarak göster</string>
-    <string name="notification_athan">Ezan Bildirimi</string>
     <string name="athan_alarm_summary">Namaz vakti için ezan uyarıları</string>
     <string name="athan_alarm">Ezan Alarmı</string>
     <string name="athan_gap_summary">Uyarı ezandan kaç dakika önce yapılsın</string>

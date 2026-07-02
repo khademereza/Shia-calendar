@@ -164,16 +164,10 @@ The app needs this only once, however, if you move to a new location, accessing 
     <string name="athan_gap_summary">How long ahead of the Athan should the alarm be triggered (in minutes)</string>
     <string name="athan_alarm">Athan Alarm</string>
     <string name="athan_alarm_summary">Prayers to trigger the alarm for</string>
-    <string name="notification_athan">Athan Notification</string>
-    <string name="enable_notification_athan">Show Athan as a notification and device vibration</string>
-    <string name="ascending_athan_volume">Ascending athan volume</string>
-    <string name="enable_ascending_athan_volume">Athan volume reaches to maximum value in one minute</string>
     <string name="custom_athan">Select Athan</string>
     <string name="abdulbasit">Abdul-Basit Abdel-Samad</string>
     <string name="custom_notification_is_set">Custom notification is just set</string>
     <string name="default_athan">Default Athan</string>
-    <string name="athan_volume">Athan Volume</string>
-    <string name="athan_volume_summary">Set the volume for the alarm</string>
     <string name="athan_disabled_summary">To set the Athan alarm, choose a location or enter the coordinates above</string>
     <!--Permissions-->
     <string name="location_access">Location Access</string>

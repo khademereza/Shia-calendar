@@ -42,8 +42,6 @@
     <string name="athan">اذان</string>
     <string name="athan_alarm_summary">برای این نمازها اذان گفته شود</string>
     <string name="athan_alarm">اذان‌ها</string>
-    <string name="athan_volume_summary">تنظیم حجم صدای اذان</string>
-    <string name="athan_volume">حجم صدا</string>
     <string name="athan_disabled_summary">برای روشن کردن تنظیمات اوقات ابتدا مکان را تنظیم کنید</string>
     <string name="athan_gap">فاصلهٔ بین اذان واقعی و اذان برنامه</string>
     <string name="athan_gap_summary">چند دقیقه پیش از اذان، هشدار به صدا درآورده شود</string>
@@ -98,8 +96,6 @@
     <string name="customize_widget">شخصی‌سازی ویجت و اعلان</string>
     <string name="add">افزودن</string>
     <string name="which_one_to_show">کدام یک نمایش داده شود</string>
-    <string name="notification_athan">اذان به صورت اعلان</string>
-    <string name="enable_notification_athan">نمایش اذان به‌عنوان یک اعلان و لرزش دستگاه</string>
     <string name="custom_notification_is_set">صدای درخواستی تنظیم شد</string>
     <string name="custom_athan">انتخاب اذان</string>
     <string name="default_athan">صدای پیش‌فرض</string>
@@ -218,8 +214,6 @@
     <string name="prefer_linear_date">نمایش تاریخ به‌صورت عددی</string>
     <string name="month_events">مناسبت‌های ماه</string>
     <string name="map">نقشه</string>
-    <string name="ascending_athan_volume">صدای افزایشی اذان</string>
-    <string name="enable_ascending_athan_volume">صدای اذان طی یک دقیقه به حداکثر خود می‌رسد</string>
     <string name="widget_background_color">رنگ پس‌زمینهٔ ویجت</string>
     <string name="select_widgets_background_color">انتخاب رنگ دلخواه برای پس‌زمینه ویجت</string>
     <string name="share">هم‌رسانی</string>

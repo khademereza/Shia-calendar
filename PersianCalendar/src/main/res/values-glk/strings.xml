@@ -42,8 +42,6 @@
     <string name="athan">اذان</string>
     <string name="athan_alarm_summary">أ نمازانˇره اذان بگه</string>
     <string name="athan_alarm">اذانان</string>
-    <string name="athan_volume_summary">اذانˇحجمˇصدايأ تنظيم کۊدن</string>
-    <string name="athan_volume">حجمˇصدا</string>
     <string name="athan_disabled_summary">اذانˇتنظيماتˇرا تأودأنˇره, ئي جگايأ فهرستˇجأدؤجين بۊکۊنيد, يا شيمي مؤقعيتˇمۊشخصاتˈوارد بۊکۊنيد</string>
     <string name="athan_gap">فاصلهٔ بین اذان واقعی و اذان برنامه</string>
     <string name="athan_gap_summary">چن دقه به اذان بمانسته, زنگ صدا بۊخۊره</string>
@@ -96,8 +94,6 @@
     <string name="customize_widget">ويجتان ؤ اعلانˈشخصي چاکۊدن</string>
     <string name="add">عيلاوه کۊدن</string>
     <string name="which_one_to_show">کؤيتأيأ نيشان بده</string>
-    <string name="notification_athan">اذان به صورت اعلان</string>
-    <string name="enable_notification_athan">اذانˇنيشان دأن ايتأ اعلانˇمانستن ؤ دزگا پرکستن</string>
     <string name="custom_notification_is_set">درخاستي صدا تنظيم بؤبؤ</string>
     <string name="custom_athan">اذانˇدؤجين کۊدن</string>
     <string name="default_athan">اذانˇپیش‌فرض</string>
@@ -212,8 +208,6 @@
     <string name="prefer_linear_date">عددي تاريخ</string>
     <string name="month_events">أ ما مۊناسبتان</string>
     <string name="map">Map</string>
-    <string name="ascending_athan_volume">صدای افزایشی اذان</string>
-    <string name="enable_ascending_athan_volume">صدای اذان طی یک دقیقه به حداکثر خود می‌رسد</string>
     <string name="widget_background_color">رنگ پس‌زمینه ویجت</string>
     <string name="select_widgets_background_color">انتخاب رنگ دلخواه برای پس‌زمینه ویجت</string>
     <string name="share">هم‌رسانی</string>

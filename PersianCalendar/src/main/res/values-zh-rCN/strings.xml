@@ -286,15 +286,9 @@
     <string name="athan_gap_summary">在宣礼之前提前多少分钟触发闹铃</string>
     <string name="athan_alarm">宣礼闹钟</string>
     <string name="athan_alarm_summary">选择要触发闹钟的礼拜</string>
-    <string name="notification_athan">宣礼通知</string>
-    <string name="enable_notification_athan">以通知和设备振动的方式提醒宣礼</string>
-    <string name="ascending_athan_volume">宣礼音量渐响</string>
-    <string name="enable_ascending_athan_volume">在一分钟内将宣礼音量逐渐调整至最大</string>
     <string name="custom_athan">选择宣礼</string>
     <string name="custom_notification_is_set">自定义通知设置成功</string>
     <string name="default_athan">默认宣礼</string>
-    <string name="athan_volume">宣礼音量</string>
-    <string name="athan_volume_summary">设置闹钟的音量</string>
     <string name="athan_disabled_summary">设置宣礼闹钟前，请先在上方选择位置或输入坐标</string>
     <string name="remove">移除</string>
     <string name="n_till">距离%2$s还剩 %1$s</string>

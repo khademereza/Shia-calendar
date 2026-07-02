@@ -150,11 +150,8 @@
     <string name="gps_internet_description">Aktivieren Sie bitte die GPS- und Internetverbindung Ihres Geräts, um Ihren Standort zu finden.\n\nDie App benötigt dies nur einmal, aber wenn Sie sich an einen neuen Standort begeben, ist der Zugriff auf GPS und Internet erneut erforderlich.</string>
     <string name="athan_alarm">Adhan Alarm</string>
     <string name="athan_alarm_summary">Gebete zur Auslösung des Alarms für</string>
-    <string name="enable_ascending_athan_volume">Das Adhanvolumen erreicht in einer Minute den Höchstwert</string>
     <string name="pray_methods">Berechnungsmethoden</string>
     <string name="custom_notification_is_set">Benutzerdefinierte Benachrichtigung ist gerade eingestellt</string>
-    <string name="athan_volume">Adhan Volumen</string>
-    <string name="athan_volume_summary">Der Alarm Lautstärke einstellen</string>
     <string name="athan_disabled_summary">Um den Adhan-Alarm auszulösen, wählen Sie einen Ort aus oder geben Sie die Koordinaten oben ein</string>
     <string name="custom_athan">Adhan wählen</string>
     <string name="default_athan">Standard Adhan</string>
@@ -171,9 +168,6 @@
     <string name="customize_widget_summary">Was von Benachrichtigungen und Widgets angezeigt werden soll, um sie kompakter zu machen</string>
     <string name="phone_calendar_required">Dieser Teil der App benötigt Kalenderberechtigungen. Wenn Sie diese zulassen, werden Ihre persönlichen Ereignisse im Kalender angezeigt.</string>
     <string name="pray_methods_calculation">Berechnungsmethoden für Gebetszeiten und Qibla-Kompass</string>
-    <string name="notification_athan">Adhan Benachrichtigung</string>
-    <string name="enable_notification_athan">Adhan als Benachrichtigung und Gerätevibration anzeigen</string>
-    <string name="ascending_athan_volume">Aufsteigendes Adhanenvolumen</string>
     <string name="showing_iran_time">Widgets und Benachrichtigungen in der iranischen Zeitzone</string>
     <string name="phone_location_required">Dieser Teil der App benötigt eine Standortberechtigung. Wenn Sie sich weigern, müssen Sie Ihren Breiten- und Längengrad manuell eingeben.</string>
     <string name="month">Monat</string>

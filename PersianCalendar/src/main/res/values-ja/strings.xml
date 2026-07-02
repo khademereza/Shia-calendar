@@ -42,8 +42,6 @@
     <string name="athan">アダン</string>
     <string name="athan_alarm_summary">これらの祈りの アダン</string>
     <string name="athan_alarm">アダン</string>
-    <string name="athan_volume_summary">アダンの音量</string>
-    <string name="athan_volume">音量</string>
     <string name="athan_disabled_summary">アダンを使うには、リストから場所を選択するか、あなたの場所の詳細を追加してください</string>
     <string name="athan_gap">実際のアダンとアプリケーションのアダンの間の距離</string>
     <string name="athan_gap_summary">アダンの何分前に通知音が鳴る</string>
@@ -141,8 +139,6 @@
     <string name="pm">午後</string>
     <string name="shift_work_days_head">長さ</string>
     <string name="map">地図</string>
-    <string name="enable_ascending_athan_volume">アザンの声は1分以内にピークに達します</string>
-    <string name="ascending_athan_volume">アザンの音の増加</string>
     <string name="widget_age_name">Persian Calendar (age)</string>
     <string name="preview">プレビュ</string>
     <string name="ignore">無視</string>

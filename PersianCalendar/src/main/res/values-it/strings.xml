@@ -197,16 +197,10 @@
     <string name="athan_gap_summary">Quanto tempo prima dell’Athan deve essere attivato l’allarme (in minuti)</string>
     <string name="athan_alarm">Allarme Athan</string>
     <string name="athan_alarm_summary">Preghiere per attivare l’allarme per</string>
-    <string name="notification_athan">Notifica Athan</string>
-    <string name="enable_notification_athan">Mostra Athan come notifica e vibrazione del dispositivo</string>
-    <string name="ascending_athan_volume">Volume ascendente dell’Athan</string>
-    <string name="enable_ascending_athan_volume">Il volume di Athan raggiunge il valore massimo in un minuto</string>
     <string name="custom_athan">Seleziona Athan</string>
     <string name="abdulbasit">Abdul-Basit Abdel-Samad</string>
     <string name="custom_notification_is_set">La notifica personalizzata è appena stata impostata</string>
     <string name="default_athan">Athan predefinito</string>
-    <string name="athan_volume">Volume di Athan</string>
-    <string name="athan_volume_summary">Imposta il volume del’allarme</string>
     <string name="athan_disabled_summary">Per impostare l’allarme Athan, scegli una località o inserisci le coordinate</string>
     <string name="location_access">Accesso alla posizione</string>
     <string name="phone_location_required">Questa parte dell’app richiede l’autorizzazione alla localizzazione; se scegli di negarla, dovrai inserire manualmente la tua latitudine e longitudine.</string>

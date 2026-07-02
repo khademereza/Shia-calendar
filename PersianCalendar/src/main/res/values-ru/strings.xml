@@ -237,13 +237,9 @@
     <string name="athan_gap">Предупреждение об Азане</string>
     <string name="athan_gap_summary">За какое время до Aзана должен сработать будильник (в минутах)</string>
     <string name="athan_alarm_summary">Молитвы, чтобы вызвать тревогу для</string>
-    <string name="notification_athan">Уведомление об Азане</string>
     <string name="athan_alarm">Будильник Азана</string>
-    <string name="enable_notification_athan">Показывать Азан в виде уведомления и вибрации устройства</string>
-    <string name="enable_ascending_athan_volume">Уровень громкости Азана достигает максимального значения за одну минуту</string>
     <string name="abdulbasit">Абдул-Басит Абдель-Самад</string>
     <string name="custom_notification_is_set">Пользовательское уведомление просто настроено</string>
-    <string name="athan_volume">Громкость Азана</string>
     <string name="location_access">Доступ к местоположению</string>
     <string name="calendar_access">Доступ к календарю</string>
     <string name="licenses">Лицензия</string>
@@ -361,10 +357,8 @@
         <item quantity="other">%1$s лет</item>
     </plurals>
     <string name="pray_methods_calculation">Методы расчета времени молитвы и компаса Киблы</string>
-    <string name="ascending_athan_volume">Возрастающий уровень громкости Азана</string>
     <string name="custom_athan">Выберите Азан</string>
     <string name="default_athan">Aзан по умолчанию</string>
-    <string name="athan_volume_summary">Установите громкость будильника</string>
     <string name="athan_disabled_summary">Чтобы установить будильник Азанa, выберите место или введите координаты выше</string>
     <string name="phone_location_required">Для этой части приложения требуется разрешение на определение местоположения. Если вы выберете запрет, вам придется ввести широту и долготу вручную.</string>
     <string name="phone_calendar_required">Для этой части приложения требуется разрешение на доступ к календарю, если вы разрешите, ваши личные события будут отображаться в календаре.</string>

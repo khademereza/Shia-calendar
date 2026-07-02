@@ -287,16 +287,10 @@
     <string name="athan_gap_summary">Чанд дақиқа пеш аз азон, ҳушдор бояд садо диҳад</string>
     <string name="athan_alarm">азонҳо</string>
     <string name="athan_alarm_summary">Барои ин Намозҳо азон гуфта шавад</string>
-    <string name="notification_athan">Азон дар шакли эълон</string>
-    <string name="enable_notification_athan">Азонро ҳамчун огоҳӣ ва ларзиши дастгоҳ нишон диҳед</string>
-    <string name="ascending_athan_volume">Баланд шудани садои азон</string>
-    <string name="enable_ascending_athan_volume">Овози азон дар як дақиқа ба ҳадди худ мерасад</string>
     <string name="custom_athan">Азонро интихоб кунед</string>
     <string name="abdulbasit">Абдулбасит Абдул Самад</string>
     <string name="custom_notification_is_set">Овози дархостшуда муқаррар карда шуд</string>
     <string name="default_athan">Азони пешфарз</string>
-    <string name="athan_volume">Ҳаҷми овози азон</string>
-    <string name="athan_volume_summary">танзим ҳаҷми овози азон</string>
     <string name="athan_disabled_summary">Барои фаъол кардани танзимоти азон, маконро таъин кунед</string>
     <string name="about_license_sum">Литсензияи GPLv3, шартҳои иҷозатномаро, ки дар тақвими форсӣ истифода мешаванд ва китобхонаҳои истифодашударо тафтиш кунед.</string>
     <string name="notify_date_lock_screen">Намоиши огоҳиҳо дар ҳолати қулф</string>

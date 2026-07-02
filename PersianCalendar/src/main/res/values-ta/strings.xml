@@ -11,16 +11,10 @@
         <item quantity="other">%1$s %2$s நாள்கள்</item>
     </plurals>
     <string name="athan_alarm_summary">அறிவிப்பொலியைத் தூண்டுவதற்கான வழிபாடுகள்</string>
-    <string name="notification_athan">இறைஅழைப்பு அறிவிப்பு</string>
-    <string name="enable_notification_athan">இறைஅழைப்பை கருவி அதிர்வு மற்றும் அறிவிப்பாகக் காட்டுங்கள்</string>
-    <string name="ascending_athan_volume">ஏறும் இறைஅழைப்பு ஒலியளவு</string>
-    <string name="enable_ascending_athan_volume">இறைஅழைப்பு ஒலியளவு ஒரு நிமையத்தில் மேல்வரம்பு மதிப்பை அடைகிறது</string>
     <string name="custom_athan">இறைஅழைப்பைத் தேர்ந்தெடு</string>
     <string name="abdulbasit">அப்துல் பாசித் அப்துல் சமத்</string>
     <string name="custom_notification_is_set">தனிப்பயன் அறிவிப்பு இப்போது அமைக்கப்பட்டது</string>
     <string name="default_athan">இயல்புநிலை இறைஅழைப்பு</string>
-    <string name="athan_volume">இறைஅழைப்பு ஒலியளவு</string>
-    <string name="athan_volume_summary">அறிவிப்பொலி அளவை அமை</string>
     <string name="athan_disabled_summary">இறைஅழைப்பு அறிவிப்பொலியை அமைக்க, ஒரு இடத்தைத் தேர்வுசெய்க அல்லது மேலே உள்ள ஆயங்களை உள்ளிடவும்</string>
     <string name="location_access">இருப்பிட அணுகல்</string>
     <string name="phone_location_required">இந்தப் பகுதிக்கு இருப்பிட இசைவு தேவை, நீங்கள் மறுக்க விரும்பினால் உங்கள் குறுக்குக்கோடு மற்றும் நெடுங்கோடுகளை கைமுறையாக உள்ளிட வேண்டும்.</string>
