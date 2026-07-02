@@ -89,11 +89,11 @@ fun MoonInScorpioDialog(
     val currentYear = (today on mainCalendar).year
     val types = listOf(
         run {
-            if (language.isPersianOrDari) "صورت فلکی" else stringResource(R.string.astronomy)
-        } to Zodiac.SCORPIO.iauRange,
-        run {
             if (language.isPersianOrDari) "برج" else stringResource(R.string.tropical)
         } to Zodiac.SCORPIO.tropicalRange,
+        run {
+            if (language.isPersianOrDari) "صورت فلکی" else stringResource(R.string.astronomy)
+        } to Zodiac.SCORPIO.iauRange,
     )
     val yearPagerState = rememberPagerState(initialPage = yearPages / 2, pageCount = { yearPages })
     val pendingConfirms = remember { mutableStateListOf<() -> Unit>() }
