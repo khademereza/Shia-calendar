@@ -36,10 +36,8 @@ import androidx.compose.material.icons.filled.MyLocation
 import androidx.compose.material.icons.filled.NightlightRound
 import androidx.compose.material.icons.filled.SocialDistance
 import androidx.compose.material.icons.filled._3dRotation
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
@@ -85,6 +83,7 @@ import com.byagowi.persiancalendar.global.coordinates
 import com.byagowi.persiancalendar.global.language
 import com.byagowi.persiancalendar.global.numeral
 import com.byagowi.persiancalendar.global.showQibla
+import com.byagowi.persiancalendar.ui.common.AppDialog
 import com.byagowi.persiancalendar.ui.common.AppIconButton
 import com.byagowi.persiancalendar.ui.common.DatePickerDialog
 import com.byagowi.persiancalendar.ui.common.NavigationNavigateUpIcon
@@ -158,8 +157,7 @@ fun SharedTransitionScope.MapScreen(
     )
 
     var showMapTypesDialog by rememberSaveable { mutableStateOf(false) }
-    @OptIn(ExperimentalMaterial3Api::class)
-    if (showMapTypesDialog) ModalBottomSheet(
+    if (showMapTypesDialog) AppDialog(
         onDismissRequest = { showMapTypesDialog = false },
     ) {
         MapType.entries.drop(1) // Hide "None" option
