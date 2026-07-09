@@ -90,6 +90,7 @@ class EventsTest {
             assertEquals(0, it.size)
         }
 }
+
     @Test
     fun testAfghanistanDefaultRepository() {
         val repository = EventsRepository(EventsRepository.afghanistanDefault, Language.FA)
