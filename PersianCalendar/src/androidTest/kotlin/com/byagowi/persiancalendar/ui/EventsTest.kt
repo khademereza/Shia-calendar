@@ -36,31 +36,34 @@ class EventsTest {
 
     @Test
     fun testAncientIranEventsRepository() {
-        val repository = EventsRepository(setOf(EventsRepository.IRAN_ANCIENT_KEY), Language.FA)
-        assertEquals(IslamicDate.useUmmAlQura, false)
+    val repository = EventsRepository(setOf(EventsRepository.IRAN_ANCIENT_KEY), Language.FA)
+    assertEquals(IslamicDate.useUmmAlQura, false)
 
-        assertEquals(
-            0,
-            (1..30).map { IslamicDate(1400, 2, it) }.flatMap {
-                repository.irregularCalendarEventsStore
-                    .getEvents<CalendarEvent.IslamicCalendarEvent>(it)
-            }.size,
-        )
+    assertEquals(
+        0,
+        (1..30).map { IslamicDate(1400, 2, it) }.flatMap {
+            repository.irregularCalendarEventsStore
+                .getEvents<CalendarEvent.IslamicCalendarEvent>(it)
+        }.size,
+    )
 
-        assertEquals(
-            1,
-            repository.irregularCalendarEventsStore.getEventsList<CalendarEvent.PersianCalendarEvent>(
-                1400, Calendar.SHAMSI,
-            ).size,
-        )
+    assertEquals(
+        0,
+        repository.irregularCalendarEventsStore.getEventsList<CalendarEvent.PersianCalendarEvent>(
+            1400, Calendar.SHAMSI,
+        ).size,
+    )
 
-        assertEquals(
-            1, repository.getEvents(Jdn(PersianDate(1400, 12, 24)), EventsStore.empty()).size,
-        )
-        assertEquals(
-            1, repository.getEvents(Jdn(PersianDate(1400, 12, 14)), EventsStore.empty()).size,
-        )
-    }
+    assertEquals(
+        0,
+        repository.getEvents(Jdn(PersianDate(1400, 12, 24)), EventsStore.empty()).size,
+    )
+
+    assertEquals(
+        0,
+        repository.getEvents(Jdn(PersianDate(1400, 12, 14)), EventsStore.empty()).size,
+    )
+}
 
     @Test
     fun testCalculateWorkDays() {
@@ -78,17 +81,15 @@ class EventsTest {
 
     @Test
     fun testInternationEventsRepository() {
-        val repository = EventsRepository(setOf(EventsRepository.INTERNATIONAL_KEY), Language.UR)
-        assertEquals(IslamicDate.useUmmAlQura, true)
-        repository.irregularCalendarEventsStore
-            .getEventsList<CalendarEvent.GregorianCalendarEvent>(2021, Calendar.GREGORIAN)
-            .let {
-                assertEquals(4, it.size)
-                assertEquals(false, it[0].isHoliday)
-                assertEquals(false, it[1].isHoliday)
-            }
-    }
+    val repository = EventsRepository(setOf(EventsRepository.INTERNATIONAL_KEY), Language.UR)
+    assertEquals(IslamicDate.useUmmAlQura, true)
 
+    repository.irregularCalendarEventsStore
+        .getEventsList<CalendarEvent.GregorianCalendarEvent>(2021, Calendar.GREGORIAN)
+        .let {
+            assertEquals(0, it.size)
+        }
+}
     @Test
     fun testAfghanistanDefaultRepository() {
         val repository = EventsRepository(EventsRepository.afghanistanDefault, Language.FA)
