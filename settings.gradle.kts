@@ -19,5 +19,5 @@ dependencyResolutionManagement {
 rootProject.name = "persian-calendar"
 include(":PersianCalendar")
 includeBuild("gradlePlugins")
-include(":wear")
+// include(":wear")
 include(":lintChecks")
